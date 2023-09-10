@@ -1,0 +1,32 @@
+header#navbar{
+    z-index: 999;
+}
+
+.faqs{
+    background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.footer{
+ height: 40px;   
+}
+
+.footer p, footer a{
+    line-height: 40px;
+}
+
+.box{
+    min-height: 250px;
+}
+
+.box{
+    min-height: 250px;
+    transition: 0.5s;
+}
+.box:hover{
+    border: none;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
